@@ -38,11 +38,6 @@ body{
     font-style: normal; 
 }
 
-.section1{
-  
-    animation: scrollAnimation 1s ease-in-out;
-}
-
 .container{
 
     padding-left: 20px;
