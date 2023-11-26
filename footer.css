@@ -1,79 +1,4 @@
 
-h1,h2,h3,h4{
-    color: var(--bs-main-color);
-    font-family: Zodiak;
-    font-style: normal;
-    
-}
- 
-
-h1{
-    color: #FFF;
-text-align: center;
-
-font-size: 56px;
-font-style: normal;
-font-weight: 700;
-line-height: 67.98px; /* 121.393% */
-margin-bottom: -2px;
-}
-h2{
-    color: #19474E;
-    text-align: center;
-    font-family: Zodiak;
-    font-size: 38px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 50.01px; 
-}
-
-
-h3{
-    color: #19474E;
-text-align: center;
-
-
-font-style: normal;
-font-weight: 700;
-
-padding-bottom: 20px;
-}
-
-h4{
-    color: #19474E;
-text-align: center;
-
-
-font-style: normal;
-font-weight: 500;
-
-padding-bottom: 20px;
-}
-
-h5{
-    color: #ffffff;
-
-
-
-font-style: normal;
-font-weight: 500;
-
-padding-bottom: 20px;
-}
-p{
-    color: #19474E;
-
-  
-    font-size: 18px;
-    font-style: normal;
- 
-    line-height: 30.01px; 
-    margin-bottom: 51px;
-}
-
-a{
-    text-decoration: none;
-}
 /*  its footer */
 	
 .round-btn {display: inline;height: 40px; width: 40px; background:#fff;border-radius: 50%;float: left;margin: 15px 8px;box-shadow: 2px 2px 5px 0px rgb(82, 0, 67);border: 1px solid;/*border: 1px solid #622657;*/}
@@ -282,3 +207,9 @@ footer dl, ol, ul {
 .copyright {
     font-size: 13px;}
 }	
+
+
+h5{
+
+    color: white;
+}
