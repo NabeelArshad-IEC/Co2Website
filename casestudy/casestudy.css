@@ -188,10 +188,23 @@ margin-top: -50px;
 }
 
 @media screen and (max-width: 768px) {
+   
+    .section1 .subcontainer{
+        padding-top: 100px;
+        height: inherit;
+    }
+
+    .section1 p{
+     width: 100%;
+    }
+   
     .container{
         padding-left: 20px;
         animation: scrollAnimation 1s ease-in-out;
+
     }
+
+
     
     h1 {
         font-size: 33px;
@@ -223,12 +236,7 @@ margin-top: -50px;
     }
 }
 
-.footer{
-    padding-top: 50px;
-    background-color: var(--secondary-4);
-    padding-bottom: 50px;
-    animation: scrollAnimation 1s ease-in-out;
-}
+
 
 @keyframes scrollAnimation {
     0% {
@@ -274,12 +282,7 @@ margin-top: -50px;
     }
 }
 
-.footer{
-    padding-top: 50px;
-    background-color: var(--secondary-4);
-    padding-bottom: 50px;
-    animation: scrollAnimation 1s ease-in-out;
-}
+
 
 /* Initially hide the elements */
 .fade-in-section {
