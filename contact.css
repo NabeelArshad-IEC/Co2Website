@@ -52,52 +52,22 @@ body{
    
     }
     
-    .btncolorss{
-
-
-        display: flex;
     
-    padding: 24px 40.647px 23.98px 41px;
-    justify-content: center;
-    align-items: center;
-    flex-shrink: 0;
-    border-radius: 10000px;
-    border: 1px solid var(--primary-1);
-    background: var(--primary-1);
-    color: var(--neutral-200);
-    font-family: DM Sans;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    margin-left: 10px;
-    }
-     
 
 h1,h2,h3,h4{
     color: var(--bs-main-color);
-    font-family: Zodiak;
+    font-family: DM Sans,sans-serif;
     font-style: normal;
     transition: all 0.3s ease-in-out;
     
 }
  
 
-h1{
-    color: #FFF;
-   
-    font-family: Zodiak;
-    font-size: 56px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 67.98px; /* 121.393% */
-    padding-bottom: 22px;
-    transition: all 0.3s ease-in-out;
 
-}
 h2{
-    color: #19474E;
-  
-    font-family: Zodiak;
+    color: #ffffff;
+    font-family: DM Sans,sans-serif;
+
     font-size: 38px;
     font-style: normal;
     font-weight: 700;
@@ -108,33 +78,10 @@ h2{
 }
 
 
-h3{
-    color: #19474E;
-
-
-
-font-style: normal;
-font-weight: 700;
-transition: all 0.3s ease-in-out;
-
-
-margin-bottom: -2px;
-}
-
-
-
-p{
-    color: #5D6A6A;
-
-font-family: DM Sans,sans-serif;
-font-size: 18px;
-transition: all 0.3s ease-in-out;
-
-
-line-height: 30.01px; /* 166.722% *//* 166.722% */
-width: 100%;
-
-}
+hr {
+    border: 1px solid rgb(255, 255, 255); /* Change border style */
+    margin: 20px 0; /* Change top and bottom margins */
+  }
 
 a{
     text-decoration: none;
@@ -200,14 +147,17 @@ a{
     height: inherit;
 }
 .bg-main{
-    height: 614.94px;
+    height: 414.94px;
     flex-shrink: 0;;
     transition: all 0.3s ease-in-out;
   
 }
 .bg-color{
+    background-image: url('contactcover.png');
+    object-fit: cover;
     background-color: var(--secondary-4);
     transition: all 0.3s ease-in-out;
+ 
 
 }
 
@@ -215,52 +165,87 @@ a{
 
    
 
+.card-text{
 
-
-.sectionwhite{
-
-    padding-top: 200px;
-    padding-bottom: 200px;
-    transition: all 0.3s ease-in-out;
-
+    color:var(--primary-1);
 }
+ .contact-info-graytext{
+   font-size: 17px;
+   color: #ffffff;
+ }
+ .contact-info-graytext:hover
+ {
+    color:var(--primary-1);
+ }
+ .contact-info-graytext a{
+   font-size: 17px;
+   color: #ffffff;
+ }
+ .contact-info-graytext a:hover
+ {
+    color:var(--primary-1);
+ }
+ 
+  .info-icon {
+
+   border-radius: 5px;
+   width: 100px;
+   height: 100px;
+   line-height: 100px;
+   text-align: center;
+ }
+ .info-icon i{
+   color:var(--primary-1);
+ }
+ 
+ .contact-form {
+   background-color:var(--neutral-400);
+
+   padding: 65px 71px 69px;
+   position: relative;
+ }
 
 
-.section{
+ .contactbtn
+ {
+ background-color:var(--primary-1);
+ width: 100%; 
+ border-radius: 5px;
+ color: #fff !important;
+ display: inline-block;
+ font-size: 15px;
+ border: none;
+ height: 55px;
+ text-align: center;
+ line-height: 47px;
+ }
+ .contact-messsage-area
+ {
+   height: 220px;
+ }
+ .contact-inputfields
+ { 
+ border-radius: 2px;
+ color:#656565 !important;
+ display: inline-block;
+ font-size: 15px;
+ border: none;
+ height: 55px;
+ line-height: 47px;
 
-    background: #EBF3EC;
-    padding-bottom: 50px;
-    transition: all 0.3s ease-in-out;
-  
-}
+ }
+ 
+ .form-control
+ {
+   box-shadow: none!important;
+   border-style: none!important;
+ }
+ 
 
-.lastsection{
-    
-    padding-top: 200px;
-    padding-bottom: 200px;
-    transition: all 0.3s ease-in-out;
-  
-}
-
-.boldtext{
-
-
-justify-content: center;
-flex-shrink: 0;
-color: #19474E;
-font-family: DM Sans;
-font-size: 18px;
-font-style: normal;
-font-weight: 700;
-line-height: 30.01px; /* 166.722% */
-transition: all 0.3s ease-in-out;
-
-}
-
-
-
-
-
+ .map{
+   width: 100%;
+   height: 100%;
+ }
 
    @media screen and (max-width: 1700px) {
     .subcontainer p{
@@ -321,14 +306,3 @@ transition: all 0.3s ease-in-out;
 
 
 
-.fade-in-section {
-    opacity: 0;
-    transform: translateY(20px);
-    transition: opacity 1s ease-in-out, transform 1s ease-in-out; 
-  }
-  
-  .fade-in-section.fade-in {
-    opacity: 1;
-    transform: translateY(0);
-  }
-  
