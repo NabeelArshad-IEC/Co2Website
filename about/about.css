@@ -2,12 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+    transition: all 0.3s ease-in-out;
 }
 
 body{
-
     background-color:  #F7F7F7;;
+    transition: all 0.3s ease-in-out;
 }
 
 :root{
@@ -27,95 +27,76 @@ body{
     --shadow-short-card: rgba(8,15,52,.04);
     --shadow-default-button-white: rgba(37,63,65,.07);
     --primary-2: #f66688;
+    transition: all 0.3s ease-in-out;
 }
-
 
 .nav-item{
     font-family: DM Sans,sans-serif;
     font-size: 18px;
     font-style: normal; 
+    transition: all 0.3s ease-in-out;
 }
 
-
-
 .container{
-
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 30px;
-   
-    }
-
-
+    transition: all 0.3s ease-in-out;
+}
 
 h1,h2,h3,h4{
     color: var(--bs-main-color);
     font-family: Zodiak;
     font-style: normal;
-  
-    
+    transition: all 0.3s ease-in-out;
 }
  
-
 h1{
     color: #FFF;
-   
     font-family: Zodiak;
     font-size: 56px;
     font-style: normal;
     font-weight: 700;
     line-height: 67.98px; /* 121.393% */
     padding-bottom: 8px;
-    
+    transition: all 0.3s ease-in-out;
 }
 h2{
     color: #19474E;
-  
     font-family: Zodiak;
     font-size: 38px;
     font-style: normal;
     font-weight: 700;
     line-height: 50.01px; 
- 
+    transition: all 0.3s ease-in-out;
 }
-
 
 h3{
     color: #19474E;
-
-
-
-font-style: normal;
-font-weight: 700;
-
-
-margin-bottom: -2px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: -2px;
+    transition: all 0.3s ease-in-out;
 }
-
-
 
 p{
     color: #5D6A6A;
-
-font-family: DM Sans,sans-serif;
-font-size: 18px;
-transition: all 0.3s ease-in-out;
-animation: slideIn 1s ease-in-out;
-
-
-line-height: 30.01px; /* 166.722% *//* 166.722% */
-width: 99%;
-padding-bottom: 18px;
+    font-family: DM Sans,sans-serif;
+    font-size: 18px;
+    transition: all 0.3s ease-in-out;
+    animation: slideIn 1s ease-in-out;
+    line-height: 30.01px; /* 166.722% *//* 166.722% */
+    width: 99%;
+    padding-bottom: 18px;
 }
 
 a{
     text-decoration: none;
-    
+    transition: all 0.3s ease-in-out;
 }
 .smalltext{
     padding-top: 48px;
     color: #41C67E;
-    
     text-align: center;
     font-family: DM Sans,sans-serif;
     font-size: 18px;
@@ -123,142 +104,104 @@ a{
     font-weight: 700;
     line-height: 20px; /* 111.111% */
     letter-spacing: 0.18px;
-
-    
-    
-    }
+    transition: all 0.3s ease-in-out;
+}
  
-    
-
-
 .section1 .subcontainer{
- padding-top:185px;
-
-   
+    padding-top:185px;
+    transition: all 0.3s ease-in-out;
 }
 .bg-main{
-    
     height: 720.88px;
     flex-shrink: 0;
-
+    transition: all 0.3s ease-in-out;
 }
 .bg-color{
-  
-        background-color: var(--secondary-4);
-      
-  
+    background-color: var(--secondary-4);
+    transition: all 0.3s ease-in-out;
 }
-
 
 .aboutsection{
-   padding-top: 20px;
-   padding-bottom: 60px;
-
+    padding-top: 20px;
+    padding-bottom: 60px;
     background: #EBF3EC;
- 
-   
+    transition: all 0.3s ease-in-out;
 }
    
-
 .aboutsection .heading{
     color: #19474E;
     padding-top: 60px;
-
-
+    transition: all 0.3s ease-in-out;
 }
 
-
-
 .section2{
-
     background: #EBF3EC;
     padding-top: 100px;
     padding-bottom: 150px;
- 
+    transition: all 0.3s ease-in-out;
 }
-
 
 .img-fluid{
     width: 900px;
-
+    transition: all 0.3s ease-in-out;
 }
-
-
-
-
 
 .section4{
-
-    padding-bottom: 200px;
+    padding-bottom: 100px;
+    transition: all 0.3s ease-in-out;
 }
 
-
-
-   @media screen and (max-width: 768px) {
- 
+@media screen and (max-width: 990px) {
     h1 {
         font-size: 33px;
         line-height: normal;
-      
+        transition: all 0.3s ease-in-out;
     }
-     h2 {
+    h2 {
         font-size: 32px;
         line-height: normal;
         padding: 0;
         margin: 0;
-   
+        transition: all 0.3s ease-in-out;
     }
-    
+    .section1 .subcontainer{
+        padding-top:15px;
+        transition: all 0.3s ease-in-out;
+    }
 }
-
 
 .section6{
-padding-top: 100px;
+    padding-top: 100px;
     padding-bottom: 100px;
+    transition: all 0.3s ease-in-out;
 }
 @media screen and (max-width: 480px) {
-  
-      h1 {
-          font-size: 33px;
-          line-height: normal;
-       
-      }
-       h2 {
-          font-size: 26px;
-          line-height: normal;
-          padding: 0;
-          margin: 0;
-     
-      }
-
-          
-.section1 .subcontainer{
-    padding-top:55px;
-   
-      
-   }
-    
-  }
-
-
-
-
-
-
-
-
-
-
+    h1 {
+        font-size: 33px;
+        line-height: normal;
+        transition: all 0.3s ease-in-out;
+    }
+    h2 {
+        font-size: 26px;
+        line-height: normal;
+        padding: 0;
+        margin: 0;
+        transition: all 0.3s ease-in-out;
+    }
+    .section1 .subcontainer{
+        padding-top:15px;
+        transition: all 0.3s ease-in-out;
+    }
+}
 
 /* Initially hide the elements */
 .fade-in-section {
     opacity: 0;
     transform: translateY(20px);
     transition: opacity 1s ease-in-out, transform 1s ease-in-out; /* Adjust the transition duration */
-  }
+}
   
-  .fade-in-section.fade-in {
+.fade-in-section.fade-in {
     opacity: 1;
     transform: translateY(0);
-  }
-  
+}
