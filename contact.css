@@ -300,9 +300,68 @@ a{
     .container h1{
     font-size: 40px;
     }
+    .bg-main{
+        height: 514.94px;
+        flex-shrink: 0;;
+        transition: all 0.3s ease-in-out;
+      
+    }
  }
 
 
 
 
+ @media screen and (max-width: 768px) {
+    .section1 .subcontainer{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-top: 20px;
+    }
+
+    .container{
+
+        padding: 0;
+    }
+     .container p{
+      width: 100%;
+     }
+  
+     .container h2{
+  
+          font-size: 32px;
+          text-align: center;
+      padding-left: 20px;
+      padding-right: 20px;
+      }
+  
+      .container h1{
+      font-size: 40px;
+      }
+      .bg-main{
+          height: 650.94px;
+          flex-shrink: 0;;
+          transition: all 0.3s ease-in-out;
+        
+      }
+
+
+
+      .contact-form {
+        background-color:var(--neutral-400);
+ margin-left: 20px;   
+width: 90%;
+       padding: 0;
+       padding-bottom: 30px;
+        position: relative;
+      }
+
+
+      .map{
+       width: 90%;
+      }
+     
+   }
+  
 
