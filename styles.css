@@ -149,25 +149,6 @@ margin-left: 10px;
 }
 
 
-.btncolors{
-
-
-    display: flex;
-
-padding: 24px 40.647px 23.98px 41px;
-justify-content: center;
-align-items: center;
-flex-shrink: 0;
-border-radius: 10000px;
-border: 1px solid var(--neutral-500);
-background: var(--neutral-500);
-color: var(--neutral-200);
-font-family: DM Sans;
-font-size: 18px;
-font-style: normal;
-font-weight: 700;
-margin-left: 10px;
-}
 
 .container{
 
