@@ -118,8 +118,7 @@ a{
 
 .videobg{
     position:absolute;
-   left: 0;
-   top: 0;
+   
    width: 100%;
    height: 1183.92px;
     z-index: -1;
@@ -756,8 +755,9 @@ margin-top: 20px;
 
       .carasol {
         display: inline-flex;
-        width: 450px;
+        width: 100%;
         padding: 20px;
+        padding-right: 40px;
         align-items: center;
         flex-shrink: 0;
         border-radius: 5px;
