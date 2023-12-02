@@ -722,8 +722,8 @@ width: 1200px;
     margin-top: 800px;}
   
     .sectionbox .container{
-       width: 100%;
-       margin-left: 5px;
+       width: 95%;
+     
        }
 
 
@@ -766,7 +766,7 @@ margin-top: 20px;
     }
     
 .cardimage{
-    width: 350px;
+    width: 300px;
 }
 
     

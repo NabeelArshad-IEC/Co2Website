@@ -189,6 +189,12 @@ margin-top: -50px;
     flex-shrink: 0;
 }
 
+
+.sectionbox .container{
+    width: 95%;
+  
+    }
+
 @media screen and (max-width: 768px) {
    
     .section1 .subcontainer{
